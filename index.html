@@ -13,9 +13,9 @@
         <h2>Brianna Brathwaite</h2>
 
         <ul>
-          <li><a href="#">Skils</a></li>
-          <li><a href="#">STEM</a></li>
-          <li><a href="#">Projects</a></li>
+          <li><a href="#section1">Skils</a></li>
+          <li><a href="#section2">STEM</a></li>
+          <li><a href="#section3">Projects</a></li>
         </ul>
       </div>
     </nav>
@@ -27,34 +27,39 @@
           senior who is planning on majoring in computer science!
         </h2>
       </section>
-      <section class="section">
+      <section id="section1" class="section">
         <h2 class="headings">⭒ Skills ⭒</h2>
 
         <div class="skills-grid">
           <div class="skill">
             Python <br />
+            -Advanced- <br>
             ⭑⭑⭑⭑
           </div>
           <div class="skill">
             Java/Javascript <br />
-            ⭑⭑
+            -Intermediate- <br>
+            ⭑⭑⭑
           </div>
           <div class="skill">
             Lua <br />
-            ⭑⭑⭑⭑
+            -Intermediate- <br>
+            ⭑⭑⭑
           </div>
           <div class="skill">
             Html <br />
+            -Intermediate- <br>
             ⭑⭑⭑
           </div>
           <div class="skill">
             CSS <br />
+            -Intermediate- <br>
             ⭑⭑⭑
           </div>
         </div>
       </section>
-      <h2 class="headings">⭒ STEM ⭒</h2>
-      <section class="section stem-section">
+      <h2 class="headings stemheading">⭒ STEM ⭒</h2>
+      <section id="section2" class="section stem-section">
         <div class="stem-text">
           <h3>My Sprayberry STEM academy Portfolio</h3>
           <a href="page2.html"><button class="stem-button">Click here!</button> </a>
@@ -64,7 +69,7 @@
         </div>
       </section>
 
-      <section class="section projects">
+      <section id="section3" class="section projects">
         <h2 class="headings">⭒ Projects ⭒</h2>
         <div class="timeline">
           <div class="timeline-item">
@@ -92,7 +97,7 @@
                 finance tool called SmartFunds. The tool's concept was to help
                 others make financial decisions based on past database.
               </p>
-              <img src="images/sillycat.jpeg" alt="Project 2 img" />
+              <img src="images/project1.png" alt="Project 2 img" />
             </div>
           </div>
 
@@ -121,17 +126,6 @@
         </div>
       </section>
     </div>
-    <script>
-      function copyToClipboard(text) {
-        navigator.clipboard.writeText(text).then(
-          function () {
-            alert("Gmail address copied to clipboard!");
-          },
-          function (err) {
-            console.error("Could not copy text: ", err);
-          }
-        );
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
